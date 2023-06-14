@@ -1,4 +1,4 @@
-md@[TOC](开关CentOS CPU超线程的脚本分析)
+@[TOC](开关CentOS CPU超线程的脚本分析)
 脚本来自网络，closeHyperThread.sh为入口，调用toggleHyperThreading.sh。本文为部分关键逻辑添加注释，笔者还未深入了解超线程，在siblings处可能有误解，welcome chat.
 # closeHyperThread.sh
 ```bash
@@ -78,7 +78,7 @@ while true; do
 done
 ```
 
-bash AND list执行逻辑: ![在这里插入图片描述](https://img-blog.csdnimg.cn/1bae1816ca6f49259e090047eb65c908.png#pic_center)
-bash  -e 参数逻辑：
+bash AND list执行逻辑:\n ![在这里插入图片描述](https://img-blog.csdnimg.cn/1bae1816ca6f49259e090047eb65c908.png#pic_center)
+bash  -e 参数逻辑：\n
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/c386b8275f54482db1a8fbe5edc3974f.png#pic_center)
 
