@@ -1,4 +1,4 @@
-@[TOC](开关CentOS CPU超线程的脚本分析)
+md@[TOC](开关CentOS CPU超线程的脚本分析)
 脚本来自网络，closeHyperThread.sh为入口，调用toggleHyperThreading.sh。本文为部分关键逻辑添加注释，笔者还未深入了解超线程，在siblings处可能有误解，welcome chat.
 # closeHyperThread.sh
 ```bash
